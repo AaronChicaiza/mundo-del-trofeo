@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: mundo-del-trofeo
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: ./outputs
+    pullRequestPreviewsEnabled: true
+    headers:
+      - path: /assets/*
+        name: Cache-Control
+        value: public, max-age=86400
