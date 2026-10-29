@@ -194,7 +194,7 @@ body[data-product="condecoraciones"] .collection-hero h1{font-size:clamp(2.75rem
 .layout-grid-flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(18px,2vw,30px)}
 .layout-grid-flow .product-shot{aspect-ratio:4/5}
 /* Medallas: banda horizontal de gran formato. */
-.layout-rail{display:flex;gap:18px;overflow-x:auto;padding:4px 0 22px;scroll-snap-type:x mandatory;overscroll-behavior-inline:contain;scrollbar-color:var(--gold) #263943;scrollbar-width:thin;cursor:grab;user-select:none;touch-action:pan-y}
+.layout-rail{display:flex;gap:18px;overflow-x:auto;padding:4px 0 22px;scroll-snap-type:x mandatory;overscroll-behavior-inline:contain;scrollbar-color:var(--gold) #263943;scrollbar-width:thin;cursor:grab;user-select:none;touch-action:pan-x;-webkit-overflow-scrolling:touch}
 .layout-rail.is-dragging{cursor:grabbing;scroll-snap-type:none}
 .layout-rail .product-shot-card{flex:0 0 clamp(280px,38vw,510px);scroll-snap-align:start}
 .layout-rail .product-shot{aspect-ratio:5/4}
